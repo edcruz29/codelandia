@@ -141,7 +141,6 @@
     width: 90%;
     margin: 25px auto;
   }
-
 }
 @media (max-width: 500px) {
   .header__search {
@@ -150,25 +149,24 @@
     height: 40px;
   }
   .header__search__input {
-    height: 40px;  
+    height: 40px;
   }
   .header__search__icon {
-  
     top: 30%;
     left: 10px;
-
   }
   .header__search__icon__p {
     position: absolute;
     top: 30%;
     left: 40px;
   }
-.chamada__titulo {
-  font-size: 18px;
-  line-height: 22px;
-}
-.chamada__span {
-  font-size: 14px;
-  line-height: 26px;
-}
+  .chamada__titulo {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .chamada__span {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 25px 5px;
+  }
 }
