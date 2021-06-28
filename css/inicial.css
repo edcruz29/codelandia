@@ -52,6 +52,7 @@
     top: 40%;
     left: 20px;
     margin-right: 15px;
+    cursor: pointer;
 }
 .header__search__icon__p{
     color: #ffff;
@@ -100,6 +101,7 @@ color: #B6B6B6;
 .chamada__icon{
     font-size: 16px;
     color: #574AE8;
+    cursor: pointer;
 }
 .chamada__titulo{
     font-family: Lexend Deca;
