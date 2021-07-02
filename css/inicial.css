@@ -79,6 +79,7 @@
   flex-wrap: wrap;
   background: #ffffff;
   margin-bottom: 50px;
+  border-radius: 5px;
 }
 .chamada__wrapper {
   display: flex;
@@ -100,6 +101,13 @@
   font-size: 16px;
   color: #574ae8;
   cursor: pointer;
+}
+.chamada__icon--filled {
+ color: #574ae8;
+ display: none;
+ font-size: 16px;
+ cursor: pointer;
+  
 }
 .chamada__titulo {
   font-family: Lexend Deca;

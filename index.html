@@ -41,7 +41,11 @@
         <div class="chamada">
           <div class="chamada__wrapper">
             <p class="chamada__data">02 de jul, 2021</p>
-            <i class="fa fa-heart-o chamada__icon" aria-hidden="true"></i>
+            <i
+              class="fa fa-heart-o chamada__icon"
+              id="turnOf"
+              aria-hidden="true"
+            ></i>
           </div>
           <h2 class="chamada__titulo">
             Agora é oficial: o Windows 11 está vindo
@@ -49,7 +53,8 @@
           <span class="chamada__span"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
-            vel diam fringilla, eu ullamcorper ex iaculis.</span>
+            vel diam fringilla, eu ullamcorper ex iaculis.</span
+          >
         </div>
 
         <div class="chamada">
@@ -103,5 +108,20 @@
         </div>
       </main>
     </div>
+    <script src="./js/favorito.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".chamada", { delay: 200 });
+      ScrollReveal().reveal(".chamada__data", { delay: 400 });
+      ScrollReveal().reveal(".chamada__titulo", { delay: 500 });
+      ScrollReveal().reveal(".chamada__span", { delay: 600 });
+    </script>
   </body>
 </html>
