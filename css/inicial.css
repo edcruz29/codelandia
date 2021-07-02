@@ -43,20 +43,10 @@
   border-radius: 5px;
   border: transparent;
 }
-.header__search__icon {
-  color: #ffff;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 40%;
-  left: 20px;
-  margin-right: 15px;
-  cursor: pointer;
-}
-.header__search__icon__p {
+.header__search__input::placeholder{
   color: #ffff;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50px;
   font-family: Inter;
   font-style: normal;
@@ -66,6 +56,17 @@
   text-align: right;
   color: #ffffff;
   opacity: 0.5;
+}
+.header__search__icon {
+  color: #ffff;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  margin-right: 15px;
+  cursor: pointer;
 }
 .main {
   max-width: 900px;
